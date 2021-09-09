@@ -1,0 +1,59 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding-top: 0.5px;
+    padding-bottom: 5px;
+}
+
+div.container {
+    margin-top: 5%;
+}
+
+
+div.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+
+div.post .post-header div:last-child {
+    display: inline-block;
+    width: 18%;
+}
+
+
+h1 {
+    padding-top: 1px; 
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Kaisei HarunoUmi', serif;  
+}
+
+div {
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+div.post {
+    background-color: white; 
+    width: 36.6%;
+    border-radius: 2px;
+}
+
+
+
+img {
+    width: 500px;
+    height: 500px;
+}
